@@ -26,7 +26,7 @@ NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/c6042704a1bc0a2b52996.
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/451f038b4e7c2ddd10dc0.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a1b9.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/12adf3a7451bf2a72b454.jpg'))
-CODE = (environ.get('CODE', 'https://vault.pictures/p/0ce73492b6cb43c4aa5bea288545bd35')) # Scanner Code image 
+CODE = (environ.get('CODE', 'https://i.ibb.co/zxCXkYj/image.jpg')) # Scanner Code image 
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1985196029').split()]
