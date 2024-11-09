@@ -71,7 +71,7 @@ IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
 
 # verify link shortner
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/link_Streaam_Movies/22")
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/link_Streaam_Movies/24")
 VERIFY2_URL = environ.get('VERIFY2_URL', "instantearn.in")
 VERIFY2_API = environ.get('VERIFY2_API', "fe42ad11c5d8487b19d045dfe7402a4db13bdd80")
 
