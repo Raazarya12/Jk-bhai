@@ -65,8 +65,8 @@ premium = environ.get('PREMIUM_LOGS', '-1001985196029')
 PREMIUM_LOGS = int(premium) if premium and id_pattern.search(premium) else None
 
 #files link shortnet
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'clickspay.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '66b767589c06fd12b6a429e1f6a452e5577bc447')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'instantearn.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'fe42ad11c5d8487b19d045dfe7402a4db13bdd80')
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
 
 # verify link shortner
