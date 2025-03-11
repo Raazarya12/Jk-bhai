@@ -70,7 +70,7 @@ SHORTLINK_API = environ.get('SHORTLINK_API', 'fb66a752433f2752ffdf971776859f5133
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
 
 # verify link shortner
-IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
+IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/link_Streaam_Movies/33")
 VERIFY2_URL = environ.get('VERIFY2_URL', "clickspay.in")
 VERIFY2_API = environ.get('VERIFY2_API', "66b767589c06fd12b6a429e1f6a452e5577bc447")
